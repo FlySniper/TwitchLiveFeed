@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="fly.tlf.view.StreamWindow">
+  <grid id="27dc6" binding="TopPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <opaque value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none">
+      <title-color color="-12039343"/>
+    </border>
+    <children>
+      <scrollpane id="d9c14" binding="ScrollPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-65536"/>
+          <foreground color="-65536"/>
+          <horizontalScrollBarPolicy value="31"/>
+          <opaque value="true"/>
+          <verticalScrollBarPolicy value="21"/>
+        </properties>
+        <border type="none">
+          <title-color color="-65536"/>
+        </border>
+        <children>
+          <grid id="d8ce1" binding="BottomPanel" layout-manager="GridBagLayout">
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <title-color color="-12039343"/>
+            </border>
+            <children/>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
